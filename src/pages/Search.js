@@ -53,7 +53,6 @@ class Search extends React.Component {
     const {
       disabled,
       value,
-      hidden,
       loading,
       artist,
       artistname,
@@ -67,7 +66,6 @@ class Search extends React.Component {
           : (
             <form id="search-form">
               <input
-                hidden={ hidden }
                 id="input-search"
                 name="value"
                 type="text"
@@ -76,7 +74,6 @@ class Search extends React.Component {
                 value={ value }
               />
               <button
-                hidden={ hidden }
                 type="button"
                 id="button-search"
                 disabled={ disabled }

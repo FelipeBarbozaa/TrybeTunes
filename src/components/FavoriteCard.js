@@ -11,6 +11,7 @@ class FavoriteCard extends React.Component {
       favorite: false,
       trackName: '',
       previewUrl: '',
+      callback: 0,
     };
   }
 
@@ -47,6 +48,7 @@ class FavoriteCard extends React.Component {
       const favorites = JSON.parse(localStorage.getItem('favorite'));
       const favoritesFiltrado = favorites.filter((e) => e !== target.id);
       localStorage.setItem('favorite', JSON.stringify(favoritesFiltrado));
+      window.location.reload();
     }
   }
 
