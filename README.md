@@ -28,6 +28,7 @@
   
   🛑 Recomendo fortemente que teste esta aplicação na sua máquina. Pelo fato da API usada ser pública, ao tentar abrir alguns albuns,
   a API retorna erro de CORS, pelo fato de permitir conexões vindo apenas do endereço http://localhost:3000
+  
   <img src="https://i.ibb.co/c3zf6wQ/Captura-de-tela-de-2022-11-07-17-29-20.png" />
 
   [Link do site](https://trybetunes-red-five.vercel.app/)
